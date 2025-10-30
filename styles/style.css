@@ -99,4 +99,36 @@ header{
     margin-top: 13px;
     color: rgba(0, 0, 0, 0.5);
 }
-
+@media screen and (max-width:576px){
+    .navbar{
+        margin: 13px 16px 0px 16px;
+        align-items: center;
+    }
+    .nav-logo > img{
+        width: 63px;
+        height: 38px;
+    }
+    .nav-items{
+        display: none;
+    }
+    .banner{
+        margin-top: 28px;
+        flex-direction: column-reverse;
+    }
+    .banner-first-side{
+        margin: 28px 16px 65px 16px;
+    }
+    .banner-title{
+        font-size: 1.5rem;
+    }
+    .banner-description{
+        font-size: 0.875rem;
+    }
+    .banner-img{
+        width: 394px;
+        height: 245px;
+    }
+    .banner-img > img{
+        width: 100%;
+    }
+}
