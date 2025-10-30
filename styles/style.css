@@ -1,0 +1,102 @@
+/* INTER FONT */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* NOTO SERIF */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* COMMON STYLES */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: ghostwhite;
+}
+.black{
+    color: #252432;
+}
+.secondary-black{
+    color: #000000;
+}
+.grey{
+    color: #8987A1;
+}
+.orange{
+    color: #E95A08;
+}
+/* NAVBAR STYLES */
+header{
+    max-width: 1140px;
+    margin: 0% auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.nav-items{
+    display: flex;
+}
+.nav-items-container{
+    display: flex;
+    align-items: center;
+}
+.nav-items-container li{
+    list-style: none;
+}
+.nav-items-container a{
+    margin-left: 48px;
+    text-decoration: none;
+}
+.nav-home{
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #252432;
+}
+.same-li{
+    font-size: 1rem;
+    line-height: 24px;
+    color: #8987A1;
+    font-weight: 400;
+}
+.cart-area>a{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
+/* BANNER STYLES */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 226px;
+    margin-bottom: 120px;
+}
+.banner-title{
+    font-size: 4.063rem;
+    font-weight: bold;
+    line-height: auto;
+    color: #000000;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: auto;
+    margin-top: 13px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
