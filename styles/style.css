@@ -148,6 +148,46 @@ main{
     background-color: #E95A08;
     width: 100%;
 }
+/* FLOWER & PLANTS LOVERS SECTION STYLES */
+.flower-and-plants-lover-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 134px;
+}
+.flower-section-title{
+    width: 70%;
+    font-size: 3.125rem;
+    font-weight: bold;
+    line-height: auto;
+    color: #000000;
+}
+.flower-lists{
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: auto;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.flower-lists li {
+    margin-bottom: 20px;
+}
+.image-container {
+    position: relative;
+}
+.rotating-image {
+    position: absolute;
+    width: 286px;   
+    height: 286px;
+    top: -135px;
+    left: 350px;
+    animation: rotate360 5s linear infinite;
+}
+
+
+
 @media screen and (max-width:576px){
     .navbar{
         margin: 13px 16px 0px 16px;
@@ -203,4 +243,35 @@ main{
     .add-to-cart{
         padding: 16px 0px;
     }
+    .flower-and-plants-lover-container{
+        flex-direction: column;
+        gap: 18px;
+    }
+    .flower-section-title{
+        font-size: 1.5rem;
+        margin-left: 17px;
+    }
+    .flower-lists{
+        font-size: 0.875rem;
+        margin-right: 17px;
+    }
+    .image-container{
+        max-width: 361px;
+    }
+    .main-image{
+        width: 100%;
+    }
+    .rotating-image{
+        display: none;
+    }
+}
+
+/* Keyframes for rotation */
+@keyframes rotate360 {
+    from {
+        transform: rotate(0deg);
+  }
+    to {
+        transform: rotate(360deg);
+  }
 }
